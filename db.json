@@ -1,0 +1,80 @@
+{
+    "products": [{
+        "id": 1,
+        "name": "AirForce",
+        "description": "Product 1 description",
+        "category": "sports-wear",
+        "image": "https://images.unsplash.com/photo-1613070120286-98b11cdb9ae2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZSUyMGFpciUyMGZvcmNlJTIwMXxlbnwwfHwwfHx8MA%3D%3D",
+        "price": 100
+    }, {
+        "id": 2,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "food-stuff",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4TkaikRxOt3wixsDidqeWwbDSZNLOiqRJkMOcmJ15Fg&s",
+        "price": 100
+    }, {
+        "id": 3,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "fashion",
+        "image": "https://i5.walmartimages.com/asr/043c3237-335b-47b2-96a6-222f7d304132.a1c8c77e46cef3b4309a2bf5f048a239.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "price": 100
+    }, {
+        "id": 4,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "electronics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOKkFuaqeU6ZNMx7v6FP17ujYBnmKqacVx8BuqCSYrw&s",
+        "price": 100
+    },  {
+        "id": 5,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "jewelry",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOdZpAnUdmzTNtMXOVgdGZ9RoqLQdv0J2I-wes-kCKg&s",
+        "price": 100
+    },  {
+        "id": 6,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "services",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 7,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "house-furniture",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    },  {
+        "id": 8,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "school-wear",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdNUhJfk_thbg-kiYTvCEHcJKfI9jZlT2CznEPlfZDEQ&s",
+        "price": 100
+    },  {
+        "id": 9,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "sports-outdoor",
+        "image": "https://c8.alamy.com/comp/2HF86KB/various-sport-equipment-gear-and-accessories-variety-2HF86KB.jpg",
+        "price": 100
+    }, {
+        "id": 10,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "health",
+        "image": "https://t4.ftcdn.net/jpg/02/81/42/77/360_F_281427785_gfahY8bX4VYCGo6jlfO8St38wS9cJQop.jpg",
+        "price": 100
+    }, {
+        "id": 11,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "kids-toys",
+        "image": "https://images.hellomagazine.com/horizon/square/9f9b151047f8-top-toys-2023-best-kids-toys-for-christmas.jpg",
+        "price": 100
+    }]
+}
