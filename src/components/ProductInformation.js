@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function ProductInformation() {
 
@@ -23,6 +24,7 @@ function ProductInformation() {
                 <img src={product.image} alt={product.name} />
                 <strong>{product.description}</strong>
                 <p>${product.price}</p>
+                <Link to='/'>Back to Products</Link>
             </div>
         </div>
     )
