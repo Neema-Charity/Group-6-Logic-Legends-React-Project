@@ -2,8 +2,11 @@
 
 ## AUTHORS
 [Neema Charity](https://github.com/Neema-Charity)
+
 [Mike Robe](https://github.com/robemike)
+
 [Brian Onduso](https://github.com/BrianOnduso0)
+
 [Munjuri Eric](https://github.com/RICCOM)
 
 ## DESCRIPTION
@@ -11,7 +14,7 @@ Shoppers is a shopping cart application designed to streamline the online shoppi
 for users.
 
 ## LIVE SITE
-https://neema-charity.github.io/Neema-Phase-2-Week-1-Code-Challenge-Bank-of-Flatiron/
+
 
 ## TECHNOLOGIES
 React
