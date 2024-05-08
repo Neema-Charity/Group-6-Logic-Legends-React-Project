@@ -4,7 +4,7 @@ import "./Footer.css"
 function Footer() {
     return (
         <div>
-            <div className='footer-container'>
+            <div className="bg-success p-2 text-white">
                 <p className='footer'>Shoppers</p>
             </div>
         </div>
