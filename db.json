@@ -1,0 +1,108 @@
+{
+    "products": [{
+        "id": 1,
+        "name": "AirForce",
+        "description": "Product 1 description",
+        "category": "sports-wear",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.millanbabyshop.com%2Fbaby-boy-shoes-nike-air-force-1%2F&psig=AOvVaw1eFWuR1dOyRVCChKVZF1zf&ust=1715257526270000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCgipqH_oUDFQAAAAAdAAAAABAE",
+        "price": 100
+    }, {
+        "id": 2,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "food-stuff",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNike_Air_Force&psig=AOvVaw1eFWuR1dOyRVCChKVZF1zf&ust=1715257526270000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCgipqH_oUDFQAAAAAdAAAAABAJ",
+        "price": 100
+    }, {
+        "id": 3,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "fashion",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 4,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "electronics",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 5,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "entertainment",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 6,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "jewelry",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 7,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "beauty",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 8,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "services",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 9,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "house-furniture",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 10,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "cutlery",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 11,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "school-wear",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 12,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "art",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 13,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "sports-outdoor",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 14,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "health",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }, {
+        "id": 15,
+        "name": "Product 1",
+        "description": "Product 1 description",
+        "category": "kids-toys",
+        "image": "https://picsum.photos/200/300",
+        "price": 100
+    }]
+}
