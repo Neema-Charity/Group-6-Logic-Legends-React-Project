@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import "./ProductInformation.css"
+import { Link } from 'react-router-dom';
 
 function ProductInformation({ setSelectedProduct }) {
     const { id } = useParams();
@@ -38,6 +39,7 @@ function ProductInformation({ setSelectedProduct }) {
                     <i className="bi bi-cart2"></i>Add to cart
                 </Button>{' '}
             </div>
+            <Link to="/" className='btn btn-primary'>Back</Link>
             <p>{cart} Items in cart</p>
         </div>
     );
