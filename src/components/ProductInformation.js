@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 function ProductInformation() {
     const { id } = useParams();
