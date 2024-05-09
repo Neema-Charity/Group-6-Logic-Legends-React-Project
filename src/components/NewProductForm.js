@@ -11,11 +11,7 @@ function NewProductForm({ onAddProduct }) {
     });
 
     const handleChange = (e) => {
-        // if (e.target.name === 'image') {
-        //     setFormData({ ...formData, [e.target.name]: e.target.files[0] })
-        // } else {
-        //     setFormData({ ...formData, [e.target.name]: e.target.value })
-        // }
+        
         const {name, value, files} = e.target;
 
         if(name === 'image' && files.length > 0) {
