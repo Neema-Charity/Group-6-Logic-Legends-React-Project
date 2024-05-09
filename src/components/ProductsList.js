@@ -2,7 +2,7 @@ import React, {useEffect,useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
 import Cart from './Cart';
-import Button from 'react-bootstrap/Butto';
+import Button from 'react-bootstrap/Button';
 
 function ProductsList() {
 
