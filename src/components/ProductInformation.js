@@ -12,6 +12,11 @@ function ProductInformation() {
             .catch(error => console.error('Error fetching product:', error));
     }, [id]);
 
+    const handleCartClick = () => {
+        setCart(prevCart => prevCart + 1);
+        console.log(cart);
+    };
+    
     if (!product) {
         return <h1>Loading...</h1>;
     }
