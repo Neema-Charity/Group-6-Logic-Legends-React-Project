@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import "./ProductsList.css"
+import Cart from './Cart';
 
 
 function ProductsList() {
@@ -19,6 +20,7 @@ function ProductsList() {
             <div>
                 <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
             </div>
+            <Cart />
             <div className='products-list-container'> 
             {products.map(product => (
                 <div className="bg-success p-2 text-dark bg-opacity-25" id="card" key={product.id}>
