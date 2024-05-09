@@ -14,18 +14,23 @@ function App() {
     setSelectedProducts(prevSelectedProducts => [...prevSelectedProducts, product]);
   };
 
+  
+
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path='/' element={<ProductsList />} />
-          <Route path='/products/:id' element={<ProductInformation addToCart={addToCart} />} /> 
-          <Route path='/admins' element={<AdminPanel />} />
-        </Routes>
-      </div>
-      {selectedProducts.length > 0 && <SelectedProducts products={selectedProducts} />} 
-      <Footer />
-    </Router>
+    <div>
+      
+      <Router>
+        <div className="App">
+          <Routes>
+            <Route path='/' element={<ProductsList />} />
+            <Route path='/products/:id' element={<ProductInformation addToCart={addToCart} />} />
+            <Route path='/admins' element={<AdminPanel />} />
+          </Routes>
+        </div>
+        {selectedProducts.length > 0 && <SelectedProducts products={selectedProducts} />}
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
