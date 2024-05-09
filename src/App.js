@@ -4,21 +4,21 @@ import Products from './components/Products';
 import ProductInformation from './components/ProductInformation';
 import AdminPanel from './components/AdminPanel';
 import Footer from './components/Footer';
-import ProtectedRoute from './components/ProtectedRoute';
+import AdminPanel from './components/AdminPanel';
 
 function App() {
-    return (
-        <Router>
-            <div className="App">
-                <Routes>
-                    <Route path="/" element={<Products />} />
-                    <Route path="/products/:id" element={<ProductInformation />} />
-                    <Route path="/admin" element={<ProtectedRoute><AdminPanel /></ProtectedRoute>} />
-                </Routes>
-                <Footer />
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<Products />} />
+          <Route path='/products/:id' element={<ProductInformation />} />
+          <Route path='/admins' element={<AdminPanel />}/>
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
