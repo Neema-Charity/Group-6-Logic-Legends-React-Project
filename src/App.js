@@ -4,7 +4,7 @@ import Products from './components/Products';
 import ProductInformation from './components/ProductInformation';
 import AdminPanel from './components/AdminPanel';
 import Footer from './components/Footer';
-import AdminPanel from './components/AdminPanel';
+
 
 function App() {
   return (
