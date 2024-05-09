@@ -24,7 +24,7 @@ function App() {
         </Routes>
       </div>
       {/* Conditionally render the SelectedProduct component */}
-      {selectedProduct && <SelectedProduc product={selectedProduct}/>}
+      {selectedProduct && <SelectedProduct product={selectedProduct}/>}
       <Footer />
     </Router>
   );
