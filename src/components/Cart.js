@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-// import ProductInformation from './ProductInformation';
 
 function Cart({ cart }) {
   const handleCartClick = () => {

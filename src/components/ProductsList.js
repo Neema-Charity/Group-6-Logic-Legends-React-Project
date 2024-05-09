@@ -6,9 +6,9 @@ import Cart from './Cart';
 function ProductsList({ products }) {
   return (
     <div>
+        <Cart />
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
-        <Cart />
       </div>
       <div className='products-list-container'>
         {products.map(product => (
