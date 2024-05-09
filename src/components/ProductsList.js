@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import "./ProductsList.css"
@@ -35,4 +35,4 @@ function ProductsList() {
     )
 }
 
-export default ProductsList
+export default ProductsList;
