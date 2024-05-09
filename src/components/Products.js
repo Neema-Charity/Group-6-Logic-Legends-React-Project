@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import "./Products.css";
 import ProductsList from './ProductsList';
 import NewProductForm from './NewProductForm';
@@ -35,6 +36,7 @@ function Products() {
     <div>
       <NewProductForm onAddProduct={handleAddProduct} />
       <ProductsList products={products} />
+      <Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link>Admins Panel<Link />
     </div>
   )
 }

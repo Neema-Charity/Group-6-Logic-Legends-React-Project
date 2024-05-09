@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
+import { useParams } from 'react-router-dom'
+import { useEffect, useState } from 'react';
 
 function ProductInformation() {
     const { id } = useParams();
@@ -40,4 +40,4 @@ function ProductInformation() {
     );
 }
 
-export default ProductInformation;
+export default ProductInformation
