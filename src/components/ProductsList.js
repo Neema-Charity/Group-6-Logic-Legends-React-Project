@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
 import Cart from './Cart';
@@ -25,7 +25,7 @@ function ProductsList() {
         <Cart />
         <div className='adminpanel'>
           <Button variant="secondary" style={{ backgroundColor: '#198754' }}>
-          <Link style={{ color: 'white' }} to='/admins'>Admins Panel</Link>
+            <Link style={{ color: 'white' }} to='/admins'>Admins Panel</Link>
           </Button>{' '}
         </div>
       </div>
@@ -36,11 +36,11 @@ function ProductsList() {
             <img className='card-img-top rounded-circle product-image' src={product.image} alt={product.name} />
             <h3>{product.name}</h3>
             <p>${product.price}</p>
+            {/* Corrected Link to point to the product's page */}
             <Link style={{ color: '#198754' }} to={`/products/${product.id}`}>INFO TO ORDER!</Link>
           </div>
         ))}
       </div>
-      {/* <div><Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div> */}
     </div>
   );
 }

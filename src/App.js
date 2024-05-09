@@ -1,8 +1,5 @@
-import './App.css';
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Products from './components/Products';
-// import ProductInformation from './components/ProductInformation';
 import Footer from './components/Footer';
 import AdminPanel from './components/AdminPanel';
 import SelectedProduct from './components/SelectedProducts';
@@ -15,13 +12,19 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
+          {/* Route to display the list of products */}
           <Route path='/' element={<ProductsList />} />
+
+          {/* Route to display individual product information */}
           <Route path='/products/:id' element={<ProductsList setSelectedProduct={setSelectedProduct}/>} />
+
+          {/* Route to display the admin panel */}
           <Route path='/admins' element={<AdminPanel />}/>
         </Routes>
       </div>
+      {/* Conditionally render the SelectedProduct component */}
       {selectedProduct && <SelectedProduct product={selectedProduct}/>}
-        <Footer />
+      <Footer />
     </Router>
   );
 }
