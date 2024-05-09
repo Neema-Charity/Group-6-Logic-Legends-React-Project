@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
 import Cart from './Cart';
+import Button from 'react-bootstrap/Button';
 
 function ProductsList() {
 
@@ -16,10 +17,19 @@ function ProductsList() {
 
   return (
     <div>
-      <Cart />
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
       </div>
+
+      <div className="buttoncontainer">
+        <Cart />
+        <div className='adminpanel'>
+          <Button variant="secondary" style={{ backgroundColor: '#198754' }}>
+          <Link style={{ color: 'white' }} to='/admins'>Admins Panel</Link>
+          </Button>{' '}
+        </div>
+      </div>
+
       <div className='products-list-container'>
         {products.map(product => (
           <div className="bg-success p-2 text-dark bg-opacity-25" id="card" key={product.id}>
@@ -30,7 +40,7 @@ function ProductsList() {
           </div>
         ))}
       </div>
-      <div><Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div>
+      {/* <div><Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div> */}
     </div>
   );
 }

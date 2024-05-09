@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./ProductsList.css";
 import Products from './Products';
+import './AdminPanel.css'
 
 function AdminPanel() {
     const [password, setPassword] = useState('');
@@ -78,8 +79,8 @@ function AdminPanel() {
         return (
             <>
             <div>
-                <h1>Admins Panel</h1>
-                <p>Welcome to the Admins Panel</p>
+                <h1 id='panel'>ADMINS PANEL </h1>
+
                 <Products />
             </div>
              <div className='products-list-container'>
@@ -100,8 +101,8 @@ function AdminPanel() {
     } else {
         return (
             <div>
-                <h1>Welcome to the Admins Panel</h1>
-                <p>Enter Password to proceed</p>
+                <h1 id='panel'>Welcome to the Admins Panel</h1>
+                <p >Enter Password to proceed</p>
                 <form onSubmit={handlePasswordSubmition}>
                     <input type='password'
                         value={password}
