@@ -6,7 +6,7 @@ import ProductInformation from './components/ProductInformation';
 import AdminPanel from './components/AdminPanel';
 import SelectedProduct from './components/SelectedProducts';
 import ProductsList from './components/ProductsList';
-
+import Footer from './components/Footer';
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
