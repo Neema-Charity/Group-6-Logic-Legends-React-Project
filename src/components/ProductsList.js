@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function ProductsList() {
 
-  const [products, setProducts] = useState([]);
+  const [product, setProducts] = useState([]);
 
   useEffect(() => {
     fetch('http://localhost:3000/products')
