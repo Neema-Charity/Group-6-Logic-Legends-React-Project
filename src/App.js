@@ -1,45 +1,29 @@
-import React from 'react';
+import './App.css';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Products from './components/Products';
+// import Products from './components/Products';
 import ProductInformation from './components/ProductInformation';
 import AdminPanel from './components/AdminPanel';
-import Footer from './components/Footer';
-
+import SelectedProduct from './components/SelectedProducts';
+import ProductsList from './components/ProductsList';
 
 function App() {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path='/' element={<Products />} />
-          <Route path='/products/:id' element={<ProductInformation />} />
+          <Route path='/' element={<ProductsList />} />
+          <Route path='/products/:id' element={<ProductInformation setSelectedProduct={setSelectedProduct}/>} />
           <Route path='/admins' element={<AdminPanel />}/>
         </Routes>
-        <Footer />
       </div>
+      {selectedProduct && <SelectedProduct product={selectedProduct}/>}
+        <Footer />
     </Router>
   );
 }
 
 export default App;
-// import './App.css';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Products from './components/Products';
-// import ProductInformation from './components/ProductInformation';
-// import Footer from './components/Footer';
 
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <Routes>
-//           <Route path='/' element={<Products />} />
-//           <Route path='/products/:id' element={<ProductInformation />} />
-//         </Routes>
-//         <Footer />
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;

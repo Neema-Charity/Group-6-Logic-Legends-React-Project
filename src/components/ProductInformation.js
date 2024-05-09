@@ -2,8 +2,10 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import "./ProductInformation.css"
+import { Link } from 'react-router-dom';
 
-function ProductInformation() {
+function ProductInformation({ setSelectedProduct }) {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
     const [cart, setCart] = useState(0);
@@ -18,6 +20,7 @@ function ProductInformation() {
     const handleCartClick = () => {
         setCart(prevCart => prevCart + 1);
         console.log(cart);
+        setSelectedProduct(product);
     };
 
     if (!product) {
@@ -27,7 +30,7 @@ function ProductInformation() {
     return (
         <div className='product-information-container'>
             <div>
-                <img src={product.image} alt={product.name} />
+                <img className=' product-image' src={product.image} alt={product.name} />
                 <strong>{product.description}</strong>
                 <p>${product.price}</p>
             </div>
@@ -36,6 +39,7 @@ function ProductInformation() {
                     <i className="bi bi-cart2"></i>Add to cart
                 </Button>{' '}
             </div>
+            <Link to="/" className='btn btn-primary'>Back</Link>
             <p>{cart} Items in cart</p>
         </div>
     );
