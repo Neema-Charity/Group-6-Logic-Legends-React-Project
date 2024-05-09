@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 
-function ProductInformation() {
+function ProductInformation({ setSelectedProduct }) {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
     const [cart, setCart] = useState(0);
@@ -18,6 +18,7 @@ function ProductInformation() {
     const handleCartClick = () => {
         setCart(prevCart => prevCart + 1);
         console.log(cart);
+        setSelectedProduct(product);
     };
 
     if (!product) {

@@ -1,12 +1,12 @@
 import React from 'react'
+import "./SelectedProducts.css"
 
-function SelectedProducts() {
+function SelectedProducts({ product }) {
     return (
-        <div>
-            <img src={product.image} alt={product.name} />
+        <div className='selected-products-container'>
             <div className="product-details">
+            <img src={product.image} alt={product.name} />
                 <h3>{product.name}</h3>
-                <p>{product.description}</p>
                 <p>${product.price}</p>
             </div>
         </div>
