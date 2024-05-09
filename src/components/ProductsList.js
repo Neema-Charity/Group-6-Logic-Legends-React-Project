@@ -18,7 +18,7 @@ function ProductsList() {
   return (
     <div>
       <div>
-        <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
+        <h1 id="shoppers" className="bg-success p-2 text-whit">SHOPPERS</h1>
       </div>
 checkout
 
