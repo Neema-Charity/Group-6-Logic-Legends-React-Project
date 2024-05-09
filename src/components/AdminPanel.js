@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Products from './Products'
 
 function AdminPanel() {
 
@@ -20,6 +21,7 @@ function AdminPanel() {
             <div>
                 <h1>Admins Panel</h1>
                 <p>Welcome to the Admins Panel</p>
+                <Products />
             </div>
         )
     } else {
