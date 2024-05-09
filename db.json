@@ -1,80 +1,80 @@
 {
     "products": [{
         "id": 1,
-        "name": "AirForce",
+        "name": "Air Force",
         "description": "Product 1 description",
-        "category": "sports-wear",
+        "category": "shoes",
         "image": "https://images.unsplash.com/photo-1613070120286-98b11cdb9ae2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZSUyMGFpciUyMGZvcmNlJTIwMXxlbnwwfHwwfHx8MA%3D%3D",
-        "price": 100
+        "price": 20
     }, {
         "id": 2,
-        "name": "Product 1",
+        "name": "Jordans",
         "description": "Product 1 description",
-        "category": "food-stuff",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4TkaikRxOt3wixsDidqeWwbDSZNLOiqRJkMOcmJ15Fg&s",
-        "price": 100
+        "category": "shoes",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfQJMSjTXYbIt-sZ8EXAyvnU7NhiZ87iq82vQDsKkWaZJoJbDYW60oHBMlIlxIrPPsqA&usqp=CAU",
+        "price": 30
     }, {
         "id": 3,
-        "name": "Product 1",
+        "name": "Adidas",
         "description": "Product 1 description",
-        "category": "fashion",
-        "image": "https://i5.walmartimages.com/asr/043c3237-335b-47b2-96a6-222f7d304132.a1c8c77e46cef3b4309a2bf5f048a239.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-        "price": 100
+        "category": "shoes",
+        "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/0438661/1.jpg?5540",
+        "price": 20
     }, {
         "id": 4,
-        "name": "Product 1",
+        "name": "Balenciagas",
         "description": "Product 1 description",
-        "category": "electronics",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOKkFuaqeU6ZNMx7v6FP17ujYBnmKqacVx8BuqCSYrw&s",
-        "price": 100
+        "category": "shoes",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzJ6570mWMkH6p22h0vyFzgwYp7TkDwmwy2vFZmsm9A&s",
+        "price": 35
     },  {
         "id": 5,
-        "name": "Product 1",
+        "name": "Chicken Tandoori",
         "description": "Product 1 description",
-        "category": "jewelry",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOdZpAnUdmzTNtMXOVgdGZ9RoqLQdv0J2I-wes-kCKg&s",
-        "price": 100
+        "category": "food",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD0zufgAKrozeg3QPFLecH2ZymhOgYyCrDCbK_nb-dsw&s",
+        "price": 10
     },  {
         "id": 6,
-        "name": "Product 1",
+        "name": "Biryani",
         "description": "Product 1 description",
-        "category": "services",
-        "image": "https://picsum.photos/200/300",
-        "price": 100
+        "category": "food",
+        "image": "https://feastwithsafiya.com/wp-content/uploads/2021/09/easy-chicken-biryani.jpg",
+        "price": 5
     }, {
         "id": 7,
-        "name": "Product 1",
+        "name": "Naan",
         "description": "Product 1 description",
-        "category": "house-furniture",
-        "image": "https://picsum.photos/200/300",
-        "price": 100
+        "category": "food",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ982qCbXpebTjnnHm8W0rNnjPQYbmkx9LWjDCWS5-hV9n3ozRPhJA2IBvTN5jkjL2vmY&usqp=CAU",
+        "price": 2
     },  {
         "id": 8,
-        "name": "Product 1",
+        "name": "Loaded fries",
         "description": "Product 1 description",
-        "category": "school-wear",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdNUhJfk_thbg-kiYTvCEHcJKfI9jZlT2CznEPlfZDEQ&s",
-        "price": 100
+        "category": "food",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/2/2018/03/asian-pulled-fries-46a8ab0.jpg?quality=90&resize=700,466",
+        "price": 10
     },  {
         "id": 9,
-        "name": "Product 1",
+        "name": "Gold necklace",
         "description": "Product 1 description",
-        "category": "sports-outdoor",
-        "image": "https://c8.alamy.com/comp/2HF86KB/various-sport-equipment-gear-and-accessories-variety-2HF86KB.jpg",
-        "price": 100
+        "category": "jewellery",
+        "image": "https://www.candere.com/media/jewellery/images/BOMNE183-A.jpg",
+        "price": 2000
     }, {
         "id": 10,
-        "name": "Product 1",
+        "name": "Silver anklet",
         "description": "Product 1 description",
-        "category": "health",
-        "image": "https://t4.ftcdn.net/jpg/02/81/42/77/360_F_281427785_gfahY8bX4VYCGo6jlfO8St38wS9cJQop.jpg",
-        "price": 100
+        "category": "jewellery",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/anklet/a/d/o/na-na-silver-anklets-with-american-diamond-stones-1-gjh-original-imagnfbukfzf5rrh.jpeg?q=90&crop=false",
+        "price": 700
     }, {
         "id": 11,
-        "name": "Product 1",
+        "name": "Diamond ring",
         "description": "Product 1 description",
-        "category": "kids-toys",
-        "image": "https://images.hellomagazine.com/horizon/square/9f9b151047f8-top-toys-2023-best-kids-toys-for-christmas.jpg",
-        "price": 100
+        "category": "jewellery",
+        "image": "https://www.candere.com/media/jewellery/images/C005496__1.jpeg",
+        "price": 1000
     }]
 }
