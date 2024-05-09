@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Routes>
           {/* Route to display the list of products */}
-          <Route path='/' element={<ProductsList />} />
+          <Route path='/' element={<ProductsLis />} />
 
           {/* Route to display individual product information */}
           <Route path='/products/:id' element={<ProductsList setSelectedProduct={setSelectedProduct}/>} />
