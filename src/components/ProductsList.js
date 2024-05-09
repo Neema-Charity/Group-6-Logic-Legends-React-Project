@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
 import Cart from './Cart';
 
-function ProductsList({ products }) {
+function ProductsList() {
+
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/products')
+      .then(res => res.json())
+      .then(data => setProducts(data))
+      .catch(error => console.error('Error fetching products:', error));
+  }, []);
+
   return (
     <div>
-        <Cart />
+      <Cart />
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
       </div>
@@ -20,6 +30,7 @@ function ProductsList({ products }) {
           </div>
         ))}
       </div>
+      <div><Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div>
     </div>
   );
 }
