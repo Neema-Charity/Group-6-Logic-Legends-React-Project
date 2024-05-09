@@ -28,6 +28,12 @@ function ProductInformation() {
                 <strong>{product.description}</strong>
                 <p>${product.price}</p>
             </div>
+            <div>
+                <Button variant="secondary" style={{ backgroundColor: '#198754' }} onClick={handleCartClick}>
+                    <i className="bi bi-cart2"></i>Add to cart
+                </Button>{' '}
+            </div>
+            <p>{cart} Items in cart</p>
         </div>
     );
 }
