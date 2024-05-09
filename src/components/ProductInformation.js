@@ -1,10 +1,10 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import { useParams, useNavigate } from 'react-router-dom';
 
-function ProductInformation({ setSelectedProduct }) {
+function ProductInformation({ addToCart }) { 
     const { id } = useParams();
+    const navigate = useNavigate();
     const [product, setProduct] = useState(null);
     const [cart, setCart] = useState(0);
 
@@ -18,7 +18,8 @@ function ProductInformation({ setSelectedProduct }) {
     const handleCartClick = () => {
         setCart(prevCart => prevCart + 1);
         console.log(cart);
-        setSelectedProduct(product);
+        addToCart(product); 
+        navigate('/');
     };
 
     if (!product) {
@@ -42,4 +43,4 @@ function ProductInformation({ setSelectedProduct }) {
     );
 }
 
-export default ProductInformation
+export default ProductInformation;
