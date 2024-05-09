@@ -1,14 +1,22 @@
-import React from 'react';
-import { Navigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ProtectedRoute({ children }) {
-    const isAuthenticated = false; // Your authentication logic here (e.g., checking user token or session)
+    const [isAuthenticated, setIsAuthenticated] = useState(false); // Replace with your authentication logic
+    const [shouldRedirect, setShouldRedirect] = useState(false);
 
-    if (!isAuthenticated) {
-        return <Navigate to="/" />;
+    useEffect(() => {
+        if (!isAuthenticated) {
+            setShouldRedirect(true);
+        }
+    }, [isAuthenticated]);
+
+    if (shouldRedirect) {
+        // Render null or a placeholder for redirection
+        return null;
     }
 
-    return children;
+    return isAuthenticated ? children : null;
 }
 
 export default ProtectedRoute;
