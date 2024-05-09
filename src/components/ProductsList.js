@@ -20,6 +20,7 @@ function ProductsList() {
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
       </div>
+checkout
 
       <div className="buttoncontainer">
         <Cart />
@@ -30,6 +31,8 @@ function ProductsList() {
         </div>
       </div>
 
+
+      <div><Link style={{ color: '#198754' }} className='admin-btn btn-primary' to='/admins'>Admins Panel</Link></div> master
       <div className='products-list-container'>
         {products.map(product => (
           <div className="bg-success p-2 text-dark bg-opacity-25" id="card" key={product.id}>

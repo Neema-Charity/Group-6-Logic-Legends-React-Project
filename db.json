@@ -49,14 +49,6 @@
       "price": 5
     },
     {
-      "id": "7",
-      "name": "Naan",
-      "description": "Product 1 description",
-      "category": "food",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ982qCbXpebTjnnHm8W0rNnjPQYbmkx9LWjDCWS5-hV9n3ozRPhJA2IBvTN5jkjL2vmY&usqp=CAU",
-      "price": 2
-    },
-    {
       "id": "8",
       "name": "Loaded fries",
       "description": "Product 1 description",
@@ -87,6 +79,6 @@
       "category": "jewellery",
       "image": "https://www.candere.com/media/jewellery/images/C005496__1.jpeg",
       "price": 1000
-    }
+   }
   ]
 }

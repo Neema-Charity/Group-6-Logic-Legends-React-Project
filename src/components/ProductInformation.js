@@ -2,8 +2,13 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
+
 import './ProductInformation.css'
 // import { Link } from 'react-router-dom';
+
+import "./ProductInformation.css"
+import { Link } from 'react-router-dom';
+
 
 function ProductInformation({ setSelectedProduct }) {
     const { id } = useParams();
@@ -30,7 +35,11 @@ function ProductInformation({ setSelectedProduct }) {
     return (
         <div className='product-information-container'>
             <div>
+
                 <img src={product.image} alt={product.name} style={{width: 'auto', height:'auto'}}/>
+
+                <img className=' product-image' src={product.image} alt={product.name} />
+
                 <strong>{product.description}</strong>
                 <p>${product.price}</p>
             </div>
@@ -38,7 +47,12 @@ function ProductInformation({ setSelectedProduct }) {
                 <Button variant="secondary" style={{ backgroundColor: '#198754' }} onClick={handleCartClick}>
                     <i className="bi bi-cart2"></i>Add to cart
                 </Button>{' '}
+
             </div>           
+
+            </div>
+            <Link to="/" className='btn btn-primary'>Back</Link>
+
             <p>{cart} Items in cart</p>
         </div>
     );

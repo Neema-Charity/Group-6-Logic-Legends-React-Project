@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import "./ProductsList.css";
 import Products from './Products';
+
 import './AdminPanel.css'
+
+import { Link } from 'react-router-dom';
+
 
 function AdminPanel() {
     const [password, setPassword] = useState('');
@@ -79,7 +83,12 @@ function AdminPanel() {
         return (
             <>
             <div>
+
                 <h1 id='panel'>ADMINS PANEL </h1>
+
+                <Link className='btn btn-primary' to="/">Back</Link>
+                <h1>Admins Panel</h1>
+                <p>Welcome to the Admins Panel</p>
 
                 <Products />
             </div>
