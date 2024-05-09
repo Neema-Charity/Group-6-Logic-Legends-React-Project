@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 function ProductInformation() {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
+    const [cart, setCart] = useState(0);
 
     useEffect(() => {
         fetch(`http://localhost:3000/products/${id}`)
@@ -16,7 +17,7 @@ function ProductInformation() {
         setCart(prevCart => prevCart + 1);
         console.log(cart);
     };
-    
+
     if (!product) {
         return <h1>Loading...</h1>;
     }
