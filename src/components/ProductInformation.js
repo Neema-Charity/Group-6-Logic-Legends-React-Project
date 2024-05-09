@@ -5,12 +5,12 @@ import { useEffect, useState } from 'react';
 function ProductInformation() {
 
     const { id } = useParams();
-    const [product, setProducts] = useState([])
+    const [product, setProduct] = useState([])
 
     useEffect(() => {
         fetch(`http://localhost:3000/products/${id}`)
            .then(res => res.json())
-           .then(data => setProducts(data))
+           .then(data => setProduct(data))
     }, [id])
 
     if (!product) {
