@@ -86,9 +86,10 @@ function AdminPanel() {
 
                     <h1 id='panel'>ADMINS PANEL </h1>
 
-                    <Link className='btn btn-primary' to="/">Back</Link>
+                    <Link className='btn ' to="/">Back</Link>
                     <h1>Admins Panel</h1>
                     <p>Welcome to the Admins Panel</p>
+                    <p>Add a new product below:</p> 
 
                     <Products />
                 </div>
@@ -110,7 +111,7 @@ function AdminPanel() {
     } else {
         return (
             <div>
-                <Link className='btn btn-primary' to="/">Back</Link>
+                <Link className='btn' to="/">Back</Link>
                 <h1 id='panel'>Welcome to the Admins Panel</h1>
                 <p >Enter Password to proceed</p>
                 <p>The password is <strong>password</strong></p>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
-import Cart from './Cart';
 
 function ProductsList() {
 
@@ -16,7 +15,7 @@ function ProductsList() {
 
   return (
     <div>
-      <Cart />
+      <div><Link className='btn btn-primary' style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div>
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
       </div>
@@ -30,7 +29,6 @@ function ProductsList() {
           </div>
         ))}
       </div>
-      <div><Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div>
     </div>
   );
 }

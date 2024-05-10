@@ -14,3 +14,9 @@ button{
     color: white;
     background-color: #062215;
 }
+.btn{
+    background-color: white;
+    color: black;
+}
+.btn:hover{
+background-color: blue;}
