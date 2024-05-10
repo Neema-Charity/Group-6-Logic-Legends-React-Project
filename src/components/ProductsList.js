@@ -17,7 +17,7 @@ function ProductsList() {
     <div>
       <div><Link className='btn btn-primary' style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div>
       <div>
-        <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
+        <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1><p className='text'>Your Ultimate Shopping Hub</p>
       </div>
       <div className='products-list-container'>
         {products.map(product => (
