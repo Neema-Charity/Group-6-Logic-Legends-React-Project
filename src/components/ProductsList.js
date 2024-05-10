@@ -18,7 +18,7 @@ function ProductsList() {
     <div>
       <Cart />
       <div>
-        <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
+        <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1><p className='text'>Your Ultimate Shopping Hub</p>
       </div>
       <div><Link style={{ color: '#198754' }} className='btn btn-primary' to='/admins'>Admins Panel</Link></div>
       <div className='products-list-container'>

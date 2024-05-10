@@ -25,7 +25,7 @@
 }
 
 div{
-    background-color: black;
+    background-color: rgba(9, 8, 8, 0.766);
 }
 
 h3,p {
@@ -36,4 +36,9 @@ h3,p {
 
 .container {
     display: flex;
+}
+.text{
+    margin-left:42%;
+    color: rgb(104, 55, 82);
+    font-style:italic;
 }

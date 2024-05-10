@@ -12,7 +12,7 @@ function ProtectedRoute({ children }) {
     }, [isAuthenticated]);
 
     if (shouldRedirect) {
-        // Render null or a placeholder for redirection
+        
         return null;
     }
 
