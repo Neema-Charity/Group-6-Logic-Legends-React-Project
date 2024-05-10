@@ -50,7 +50,7 @@ function ProductInformation({ setSelectedProduct }) {
 
             </div>           
 
-            </div>
+            
             <Link to="/" className='btn btn-primary'>Back</Link>
 
             <p>{cart} Items in cart</p>
