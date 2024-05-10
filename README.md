@@ -14,7 +14,7 @@ Shoppers is a shopping cart application designed to streamline the online shoppi
 for users.
 
 ## LIVE SITE
-
+logic-legends-react-project.netlify.app
 
 ## TECHNOLOGIES
 React
