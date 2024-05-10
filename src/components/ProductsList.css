@@ -2,14 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center; 
+    align-items: center; 
+    
 }
 
 #card {
     width: 300px;
-    height: auto;
+    height: 350px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    
 }
 
 .product-image{
