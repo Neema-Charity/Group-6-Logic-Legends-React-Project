@@ -88,7 +88,7 @@ function AdminPanel() {
 
                 <Link className='btn btn-primary' to="/">Back</Link>
                 <h1>Admins Panel</h1>
-                <p>Welcome to the Admins Panel</p>
+                <p className='text'>Welcome to the Admins Panel</p>
 
                 <Products />
             </div>
