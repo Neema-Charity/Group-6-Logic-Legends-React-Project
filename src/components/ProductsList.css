@@ -37,8 +37,11 @@ h3,p {
 .container {
     display: flex;
 }
-.text{
-    margin-left:42%;
-    color: rgb(104, 55, 82);
-    font-style:italic;
+
+div.buttoncontainer{
+    display: flex;
+}
+
+div.adminpanel{
+    margin-left: 1000px;
 }
