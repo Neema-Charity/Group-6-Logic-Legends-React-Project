@@ -1,5 +1,5 @@
 {
-  "homepage": "https://robemike.github.io/Group-6-Logic-Legends-React-Project",
+  
   "name": "react-project",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --env PUBLIC_URL=/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",

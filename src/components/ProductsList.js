@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
-import Cart from './Cart';
+// import Cart from './Cart';
 import Button from 'react-bootstrap/Button';
 
 function ProductsList() {
@@ -23,7 +23,7 @@ function ProductsList() {
 
 
       <div className="buttoncontainer">
-        <Cart />
+        {/* <Cart /> */}
         <div className='adminpanel'>
           <Button variant="secondary" style={{ backgroundColor: '#198754' }}>
             <Link style={{ color: 'white' }} to='/admins'>Admins Panel</Link>
