@@ -37,11 +37,3 @@ h3,p {
 .container {
     display: flex;
 }
-
-div.buttoncontainer{
-    display: flex;
-}
-
-div.adminpanel{
-    margin-left: 1000px;
-}

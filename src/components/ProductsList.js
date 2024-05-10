@@ -1,8 +1,7 @@
 import React, {useEffect,useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
-// import Cart from './Cart';
-import Button from 'react-bootstrap/Button';
+import Cart from './Cart';
 
 function ProductsList() {
 
@@ -17,6 +16,7 @@ function ProductsList() {
 
   return (
     <div>
+      <Cart />
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
       </div>
