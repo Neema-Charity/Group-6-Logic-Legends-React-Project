@@ -1,7 +1,6 @@
-import React, {useEffect,useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./ProductsList.css";
-import Cart from './Cart';
 
 function ProductsList() {
 
@@ -16,28 +15,16 @@ function ProductsList() {
 
   return (
     <div>
-      <Cart />
+      <div><Link className='btn btn-primary' style={{ color: '#198754' }} to='/admins'>Admins Panel</Link></div>
       <div>
         <h1 id="shoppers" className="bg-success p-2 text-white">SHOPPERS</h1>
       </div>
-
-
-      <div className="buttoncontainer">
-        {/* <Cart /> */}
-        <div className='adminpanel'>
-          <Button variant="secondary" style={{ backgroundColor: '#198754' }}>
-            <Link style={{ color: 'white' }} to='/admins'>Admins Panel</Link>
-          </Button>{' '}
-        </div>
-      </div>
-
       <div className='products-list-container'>
         {products.map(product => (
           <div className="bg-success p-2 text-dark bg-opacity-25" id="card" key={product.id}>
             <img className='card-img-top rounded-circle product-image' src={product.image} alt={product.name} />
             <h3>{product.name}</h3>
             <p>${product.price}</p>
-            {/* Corrected Link to point to the product's page */}
             <Link style={{ color: '#198754' }} to={`/products/${product.id}`}>INFO TO ORDER!</Link>
           </div>
         ))}
@@ -46,4 +33,4 @@ function ProductsList() {
   );
 }
 
-export default ProductsList;
+export default ProductsList; 

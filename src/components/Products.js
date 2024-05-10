@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react'
-// import { Link } from 'react-router-dom';
-import "./Products.css";
-// import ProductsList from './ProductsList';
 import NewProductForm from './NewProductForm';
 
 function Products() {

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import { useParams, useNavigate } from 'react-router-dom';
+import "./ProductInformation.css"
 
 function ProductInformation({ addToCart }) { 
     const { id } = useParams();
@@ -28,14 +30,14 @@ function ProductInformation({ addToCart }) {
     return (
         <div className='product-information-container'>
             <div>
-                <img src={product.image} alt={product.name} />
-                <strong>{product.description}</strong>
-                <p>${product.price}</p>
-            </div>
-            <div>
                 <Button variant="secondary" style={{ backgroundColor: '#198754' }} onClick={handleCartClick}>
                     <i className="bi bi-cart2"></i>Add to cart
                 </Button>{' '}
+            </div>
+            <div>
+                <img className='product-image' src={product.image} alt={product.name} />
+                <strong>{product.description}</strong>
+                <p>${product.price}</p>
             </div>
             <p>{cart} Items in cart</p>
         </div>
