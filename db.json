@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Airforce",
-      "description": "Product 1 description",
+      "description": "All time classic",
       "category": "shoes",
       "image": "https://images.unsplash.com/photo-1613070120286-98b11cdb9ae2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZSUyMGFpciUyMGZvcmNlJTIwMXxlbnwwfHwwfHx8MA%3D%3D",
       "price": 2500,
@@ -12,34 +12,34 @@
     {
       "id": "2",
       "name": "Jordans",
-      "description": "Product 1 description",
+      "description": "Matches with everything",
       "category": "shoes",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfQJMSjTXYbIt-sZ8EXAyvnU7NhiZ87iq82vQDsKkWaZJoJbDYW60oHBMlIlxIrPPsqA&usqp=CAU",
-      "price": 30,
+      "price": 3000,
       "in_stock": 10
     },
     {
       "id": "3",
       "name": "Adidas",
-      "description": "Product 1 description",
+      "description": "King of shoes",
       "category": "shoes",
       "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/0438661/1.jpg?5540",
-      "price": 20,
+      "price": 2000,
       "in_stock": 10
     },
     {
       "id": "4",
       "name": "Balenciagas",
-      "description": "Product 1 description",
+      "description": "The brand speaks for itself",
       "category": "shoes",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzJ6570mWMkH6p22h0vyFzgwYp7TkDwmwy2vFZmsm9A&s",
-      "price": 35,
+      "price": 3500,
       "in_stock": 20
     },
     {
       "id": "5",
       "name": "Chicken Tandoori",
-      "description": "Product 1 description",
+      "description": "Best Indian chicken",
       "category": "food",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD0zufgAKrozeg3QPFLecH2ZymhOgYyCrDCbK_nb-dsw&s",
       "price": 1000,
@@ -48,7 +48,7 @@
     {
       "id": "6",
       "name": "Biryani",
-      "description": "Product 1 description",
+      "description": "A coastal favourite",
       "category": "food",
       "image": "https://feastwithsafiya.com/wp-content/uploads/2021/09/easy-chicken-biryani.jpg",
       "price": 500,
@@ -57,46 +57,46 @@
     {
       "id": "7",
       "name": "Naan",
-      "description": "Product 1 description",
+      "description": "Chapati but Indian!",
       "category": "food",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ982qCbXpebTjnnHm8W0rNnjPQYbmkx9LWjDCWS5-hV9n3ozRPhJA2IBvTN5jkjL2vmY&usqp=CAU",
-      "price": 2,
+      "price": 200,
       "in_stock": 10
     },
     {
       "id": "8",
       "name": "Loaded fries",
-      "description": "Product 1 description",
+      "description": "Fries + Chicken + Meat + everything in between",
       "category": "food",
       "image": "https://images.immediate.co.uk/production/volatile/sites/2/2018/03/asian-pulled-fries-46a8ab0.jpg?quality=90&resize=700,466",
-      "price": 10,
+      "price": 1000,
       "in_stock": 10
     },
     {
       "id": "9",
       "name": "Gold necklace",
-      "description": "Product 1 description",
+      "description": "Your most prixed possession",
       "category": "jewellery",
       "image": "https://www.candere.com/media/jewellery/images/BOMNE183-A.jpg",
-      "price": 2000,
+      "price": 200000,
       "in_stock": 10
     },
     {
       "id": "10",
       "name": "Silver anklet",
-      "description": "Product 1 description",
+      "description": "Makes you memorable",
       "category": "jewellery",
       "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/anklet/a/d/o/na-na-silver-anklets-with-american-diamond-stones-1-gjh-original-imagnfbukfzf5rrh.jpeg?q=90&crop=false",
-      "price": 700,
+      "price": 70000,
       "in_stock": 10
     },
     {
       "id": "11",
       "name": "Diamond ring",
-      "description": "Product 1 description",
+      "description": "No one can say no to this one",
       "category": "jewellery",
       "image": "https://www.candere.com/media/jewellery/images/C005496__1.jpeg",
-      "price": 1000,
+      "price": 100000,
       "in_stock": "4"
     }
   ]
