@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #45b670;
+    color: white;
+    padding: 10px 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* Add space between links */
+}
+
+.nav-links li {
+    margin-right: 100px;
+    margin-left: 200px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li a:hover {
+    color: lightgray;
+}

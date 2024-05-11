@@ -1,10 +1,9 @@
-.products-list-container {
+.produccts-list-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; 
-    align-items: center; 
-    
+    justify-content: center;
+    align-items: center;
 }
 
 #card {
@@ -13,27 +12,29 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    
+
 }
 
-.product-image{
+.product-image {
     width: 200px;
     height: 200px;
 }
 
-#shoppers{
+#shoppers {
     font-size: xx-large;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-div{
-    background-color: rgba(9, 8, 8, 0.766);
+div {
+    background-color: rgba(0, 0, 0, 0.766);
+    border: 1px solid rgb(62, 177, 114);
 }
 
-h3,p {
-    color: white;
+h3,
+p {
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -41,6 +42,18 @@ h3,p {
 .container {
     display: flex;
 }
-.btn{
-    background-color: white;
+
+.btn {
+    background-color: rgba(29, 28, 28, 0.486);
+}
+
+#searchInput {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 1000px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
 }

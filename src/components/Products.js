@@ -32,8 +32,6 @@ function Products() {
   return (
     <div>
       <NewProductForm onAddProduct={handleAddProduct} />
-      {/* <ProductsList products={products} /> */}
-      {/* <Link style={{ color: '#198754' }} to='/admins'>Admins Panel</Link> */}
     </div>
   )
 }

@@ -1,25 +1,69 @@
-#panel {
-    color: black;
-    align-content: center;
-    background-color: #198754;
-    text-align: center;
-    margin-bottom: 50px;
+.admin-panel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.products-list-container {
-    margin-bottom: 50px;
-}
-
-button {
+.product-card {
+    background-color: #f8797900;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: white;
-    background-color: #062215;
 }
 
-.btn {
-    background-color: white;
-    color: black;
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
-.btn:hover {
-    background-color: blue;
+.product-details h3 {
+    margin-top: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.delete-button,
+.edit-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.edit-button {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+    background-color: #c82333;
+}
+
+body {
+    background-color: #000000;
+}
+
+.nnnn {
+    background-color: #5bdf4a;
+    width: 50px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+
 }
