@@ -1,16 +1,25 @@
-#panel{
+#panel {
     color: black;
-   align-content: center;
-   background-color: #198754;
-   text-align: center;
-   margin-bottom: 50px;
-}
-
-.products-list-container{
+    align-content: center;
+    background-color: #198754;
+    text-align: center;
     margin-bottom: 50px;
 }
 
-button{
+.products-list-container {
+    margin-bottom: 50px;
+}
+
+button {
     color: white;
     background-color: #062215;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+}
+
+.btn:hover {
+    background-color: blue;
 }

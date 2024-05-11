@@ -1,17 +1,11 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
-
-import './ProductInformation.css'
-// import { Link } from 'react-router-dom';
-
+import { useParams, useNavigate } from 'react-router-dom';
 import "./ProductInformation.css"
-import { Link } from 'react-router-dom';
 
-
-function ProductInformation({ setSelectedProduct }) {
+function ProductInformation({ addToCart }) { 
     const { id } = useParams();
+    const navigate = useNavigate();
     const [product, setProduct] = useState(null);
     const [cart, setCart] = useState(0);
 
@@ -25,7 +19,8 @@ function ProductInformation({ setSelectedProduct }) {
     const handleCartClick = () => {
         setCart(prevCart => prevCart + 1);
         console.log(cart);
-        setSelectedProduct(product);
+        addToCart(product); 
+        navigate('/');
     };
 
     if (!product) {
@@ -35,27 +30,18 @@ function ProductInformation({ setSelectedProduct }) {
     return (
         <div className='product-information-container'>
             <div>
-
-                <img src={product.image} alt={product.name} style={{width: 'auto', height:'auto'}}/>
-
-                <img className=' product-image' src={product.image} alt={product.name} />
-
-                <strong>{product.description}</strong>
-                <p>${product.price}</p>
-            </div>
-            <div>
                 <Button variant="secondary" style={{ backgroundColor: '#198754' }} onClick={handleCartClick}>
                     <i className="bi bi-cart2"></i>Add to cart
                 </Button>{' '}
-
-            </div>           
-
             </div>
-            <Link to="/" className='btn btn-primary'>Back</Link>
-
+            <div>
+                <img className='product-image' src={product.image} alt={product.name} />
+                <strong>{product.description}</strong>
+                <p>${product.price}</p>
+            </div>
             <p>{cart} Items in cart</p>
         </div>
     );
 }
 
-export default ProductInformation
+export default ProductInformation;

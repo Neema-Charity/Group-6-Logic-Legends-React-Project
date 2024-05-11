@@ -1,32 +1,33 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import ProductInformation from './components/ProductInformation';
 import AdminPanel from './components/AdminPanel';
-import SelectedProduct from './components/SelectedProducts';
+import SelectedProducts from './components/SelectedProducts';
 import ProductsList from './components/ProductsList';
-
+import Footer from './components/Footer';
 
 function App() {
-  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [selectedProducts, setSelectedProducts] = useState([]);
+
+  const addToCart = (product) => {
+    setSelectedProducts(prevSelectedProducts => [...prevSelectedProducts, product]);
+  };
 
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          {/* Route to display the list of products */}
-          <Route path='/' element={<ProductsList />} />
+    <div>
 
-          {/* Route to display individual product information */}
-          <Route path='/products/:id' element={<ProductsList setSelectedProduct={setSelectedProduct}/>} />
-
-          {/* Route to display the admin panel */}
-          <Route path='/admins' element={<AdminPanel />}/>
-        </Routes>
-      </div>
-      {/* Conditionally render the SelectedProduct component */}
-      {selectedProduct && <SelectedProduct product={selectedProduct}/>}
-      <Footer />
-    </Router>
+      <Router>
+        <div className="App">
+          <Routes>
+            <Route path='/' element={<ProductsList />} />
+            <Route path='/products/:id' element={<ProductInformation addToCart={addToCart} />} />
+            <Route path='/admins' element={<AdminPanel />} />
+          </Routes>
+          {selectedProducts.length > 0 && <SelectedProducts products={selectedProducts} />}
+          <Footer />
+        </div>
+      </Router>
+    </div>
   );
 }
 
