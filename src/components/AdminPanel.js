@@ -124,8 +124,7 @@ function AdminPanel() {
 
   return (
     <div className="admin-panel-container">
-      <h1>Admin Panel</h1>
-      <p>Welcome to the Admin Panel</p>
+      <h1>ADMIN PANEL</h1>
       <form onSubmit={handlePasswordSubmission}>
         <input
           type="password"
