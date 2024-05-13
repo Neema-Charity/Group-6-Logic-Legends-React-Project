@@ -30,12 +30,12 @@ function ProductInformation({ addToCart, setSelectedProducts }) {
     return (
         <div className='product-information-container'>
             <div className='cart-button'>
-                    <i id='sss' className="bi bi-cart2"></i>  <p className='pp'>Successfully added to cart</p>
+                <p className='pp'>{product.description}</p>
               
             </div>
             <div>
                 <img className='product-image' src={product.image} alt={product.name} />
-                <p>${product.price}</p>
+                <p>Ksh{product.price}</p>
             </div>
         </div>
     );

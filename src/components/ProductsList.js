@@ -117,7 +117,7 @@ function ProductsList() {
             >
               <img className='product-image' src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
-              <p>ksh{product.price}</p>
+              <p>Ksh {product.price}</p>
               <p>In Stock: {product.in_stock}</p>
             </Link>
             {product.inCart ? (

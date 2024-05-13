@@ -21,21 +21,23 @@ https://logic-legends-6-react-project.netlify.app/
 ### USER
 1. Search for the item you want to purchase
 
-2. If interested, add the item to your cart
+2. Click on the item to have a closer look then navigate back to the homepage
 
-3. Increase/Decrease the quantity of the item based on preference
+3. If interested, add the item to your cart
 
-4. Navigate to the homepage to see all items
+4. Increase/Decrease the quantity of the item based on your preference
 
-5. Add other items to the cart, if they are in stock
+5. Navigate to the homepage to see all items
 
-6. Scroll to the top to see the total number of items in the cart and the total price
+6. Add other items to the cart, if they are in stock
 
-7. Remove some items from the cart if the total is higher than you thought
+7. Scroll to the top to see the total number of items in the cart and the total price
 
-8. Once satisfied, proceed to checkout
+8. Remove some items from the cart if the total is higher than you thought
 
-9. Enter your details, pay and wait for delivery!
+9. Once satisfied, proceed to checkout
+
+10. Enter your details, pay and wait for delivery!
 
 ### ADMIN
 1. Navigate to the admin section
