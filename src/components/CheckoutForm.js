@@ -42,7 +42,7 @@ function CheckoutForm({ cartItems, totalPrice, totalItemsInCart, totalAmount }) 
                     />
                 </div>
                 <div className="form-group">
-                    <label>delivery Location :</label>
+                    <label>Delivery Location :</label>
                     <select
                         value={selectedCounty}
                         onChange={(e) => setSelectedCounty(e.target.value)}

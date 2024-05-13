@@ -37,7 +37,9 @@ https://logic-legends-6-react-project.netlify.app/
 
 9. Once satisfied, proceed to checkout
 
-10. Enter your details, pay and wait for delivery!
+10. Enter your phone number and shipping details 
+
+11. Pay(By M-Pesa or card) and wait for delivery!
 
 ### ADMIN
 1. Navigate to the admin section
